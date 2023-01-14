@@ -49,7 +49,7 @@ def prepare_animation(bar_container):
 N = 200
 bottom = 4
 max_height = 4
-theta = np.linspace(0.0, 2 * np.pi, N, endpoint=False)
+theta = np.linspace(0.0, 2 * np.p`i, N, endpoint=False)
 radii = np.random.rand(N)
 width = (2 * np.pi) / N
 fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
